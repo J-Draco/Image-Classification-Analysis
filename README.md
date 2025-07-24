@@ -136,18 +136,3 @@ def setup_resnet50(num_classes):
 2. 하이퍼파라미터 튜닝을 통한 성능 최적화
 3. 설명 가능한 AI 기법 적용을 통한 모델 해석
 4. 데이터셋 통합 실험을 통한 데이터 확장 효과 분석
-
-## 📝 인용
-
-본 프로젝트를 인용하실 경우 다음 형식을 사용해주세요:
-
-```
-@misc{ImageClassificationAnalysis2025,
-  author = {J-Draco},
-  title = {전이학습을 통한 이미지 분류 모델 성능 비교 분석},
-  year = {2025},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/J-Draco/Image-Classification-Analysis}}
-}
-```
