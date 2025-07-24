@@ -1,9 +1,5 @@
 # 전이학습을 통한 이미지 분류 모델 성능 비교 분석
 
-<div align="center">
-  <img src="img/training_results_20250620_085904.png" alt="모델 성능 비교" width="600">
-</div>
-
 ## 📋 프로젝트 개요
 
 본 프로젝트는 전이학습(Transfer Learning)을 활용하여 두 가지 대표적인 CNN 아키텍처(ResNet50, DenseNet121)의 이미지 분류 성능을 비교 분석합니다. 특히 애니메이션 캐릭터 표정 분류와 Hymenoptera(개미와 벌) 분류 작업에서 각 모델의 성능을 평가하고, 전이학습의 효과와 한계점을 분석합니다.
@@ -28,11 +24,6 @@
 - **정확도**: DenseNet121(43.12%) > ResNet50(40.25%)
 - **학습 시간**: ResNet50이 DenseNet121보다 약 15% 빠름
 - **과적합**: 두 모델 모두 과적합 문제 발생
-
-<div align="center">
-  <img src="img/resnet50_combined_20250620_081332.png" alt="ResNet50 학습 결과" width="400">
-  <img src="img/densenet121_combined_20250620_082425.png" alt="DenseNet121 학습 결과" width="400">
-</div>
 
 ## 📁 프로젝트 구조
 
